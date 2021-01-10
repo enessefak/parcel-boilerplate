@@ -10,8 +10,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "sass": {
+    "includePaths": [
+      "./node_modules"
+    ]
+  },
   "devDependencies": {
     "pug": "^3.0.0",
     "sass": "^1.32.2"
+  },
+  "dependencies": {
+    "include-media": "^1.4.9"
   }
 }

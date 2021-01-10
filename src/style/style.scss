@@ -3,3 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@import 'variables';
+@import 'mixins';
+
+@import 'components';
+
+html, body {
+  font-family: 'Raleway', sans-serif;
+  background-color: $bg-color;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @include media(">=desktop") {
+    max-width: $container-desktop-width;
+  }
+}
+
+.header {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 88px 0;
+  }
+}

@@ -4,4 +4,40 @@
   box-sizing: border-box;
 }
 
+.link {
+  color: #768791;
+  font-size: 20px;
+  text-decoration: none;
+}
+.link--active {
+  color: #263843;
+  font-weight: bold;
+}
+.link + .link {
+  margin-left: 25px;
+}
+
+html, body {
+  font-family: "Raleway", sans-serif;
+  background-color: #F9F9F9;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1189px;
+  }
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 88px 0;
+}
+
 /*# sourceMappingURL=/style.e0c02e61.css.map */
