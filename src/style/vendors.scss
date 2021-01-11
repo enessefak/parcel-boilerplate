@@ -1,0 +1,24 @@
+@import 'swiper/swiper.scss';
+@import 'swiper/components/navigation/navigation.scss';
+
+.slider {
+  --swiper-navigation-color: #fff;
+  --swiper-navigation-size: 12px;
+}
+
+
+.swiper {
+  &-button {
+    &-prev, &-next {
+      position: static;
+      width: 47px; 
+      height: 47px;
+      border-radius: 50%; 
+      background-color: $red;
+    }
+
+    &-next {
+      margin-left: 5px;
+    }
+  }
+}

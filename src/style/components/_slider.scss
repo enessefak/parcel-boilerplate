@@ -1,0 +1,54 @@
+.home-slider {
+  margin: 0 auto;
+  max-width: $slider-width;
+}
+
+.slider {
+  position: relative;
+
+  &__cover {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__navigation {
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+  }
+
+  &__info {
+    position: absolute;
+    bottom: 120px;
+    left: 188px;
+    color: #fff;
+    max-width: 730px;
+  }
+
+  &__title {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+
+  &__tag {
+    font-size: 19px;
+    font-weight: 600;
+    position: relative;
+    padding-left: 40px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 2px;
+      border-style: solid;
+      border-width: 12px 0px 12px 12px;
+      border-color: transparent transparent transparent #fff;
+    }
+  }
+}

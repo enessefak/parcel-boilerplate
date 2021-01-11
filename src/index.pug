@@ -1,5 +1,25 @@
 extends layout/main.pug
 
 block content
+  .swiper-container.home-slider.slider
+    .swiper-wrapper
+      .swiper-slide
+        img.slider__cover(src="assets/img/slide.jpg")
+        .slider__info
+          span.slider__tag Latest Post
+          h1.slider__title The travellers always travel the most beautiful places of the world
+          button.btn.btn--rounded.btn--outline.btn--color-white KEEP READING
+
+      .swiper-slide
+        img.slider__cover(src="assets/img/slide.jpg")
+        .slider__info
+          span.slider__tag Latest Post1
+          h1.slider__title Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, recusandae.
+          button.btn.btn--rounded.btn--outline.btn--color-white KEEP READING
+
+    .slider__navigation
+      .swiper-button-prev
+      .swiper-button-next
+
   .container
     p deneme

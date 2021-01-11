@@ -20,6 +20,7 @@
     "sass": "^1.32.2"
   },
   "dependencies": {
-    "include-media": "^1.4.9"
+    "include-media": "^1.4.9",
+    "swiper": "^6.4.5"
   }
 }
